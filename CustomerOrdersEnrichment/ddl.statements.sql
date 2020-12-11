@@ -17,7 +17,6 @@ CREATE STREAM orders (
     VALUE_FORMAT='AVRO'
 );
 
-
 -- Creating the orders stream using Schema Inference
 CREATE STREAM orders_enriched (
     order_identifier BIGINT KEY,
